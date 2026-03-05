@@ -16,6 +16,8 @@
 
 function Binary(n){
     let binary=n.toString(2);
+    // console.log(binary);
+    
     for(let i=0;i<binary.length;i++){
         if(binary[i]==binary[i+1]){
             return false
